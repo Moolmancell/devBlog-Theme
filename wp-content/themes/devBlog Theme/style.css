@@ -1,0 +1,266 @@
+/*
+Theme Name: dev.Blog Theme
+Text Domain: devBlog
+Version: 1.0.51
+Description: Custom Theme for devBlog Wordpress site.
+Author: Richmond Claude S. Bodot (Moolmancell)
+Author URI: https://github.com/Moolmancell
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap');
+
+* {
+    font-family: "DM Sans", sans-serif;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+/* header */
+
+
+/* carousel */
+
+li::marker {
+    font-size: 0;
+}
+
+.carousel-inner {
+    border-radius: 5px;
+}
+
+.carousel img {
+    height: 500px;
+    border-radius: 5px;
+    filter: brightness(0.8);
+    transition: transform 800ms;
+}
+
+@media (min-width: 992px) {
+    .carousel img {
+        height: 80vh;
+    }
+}
+
+
+.carousel img:hover {
+    transform: scale(1.1);
+}
+
+.carousel-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    color: white;
+    text-align: center; 
+    pointer-events: none;
+}
+
+    /*vvv carousel-content vvv*/
+        .carousel-content h5 {
+            font-size: 3rem;
+            width: 70vw;
+        }
+
+        .carousel-content p {
+            margin-top: 10px;
+        }
+
+        /*X-Small devices (portrait phones, less than 576px)*/
+        @media (max-width: 767.98px) {
+            .carousel-content h5 {
+                font-size: 2rem;
+            }
+        }
+
+    /*^^^ carousel-content ^^^*/
+
+.btn.carousel-button-eLink {
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    padding: 8px 25px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+    pointer-events: auto;
+}
+
+ol.carousel-indicators {
+    margin-bottom: -35px;
+}
+
+ol.carousel-indicators [data-bs-target]{
+    width: 10px;
+   height: 10px;
+   border-radius: 50%;
+   margin: 0 5px;
+}
+
+.post-category-frontpage {
+    margin-top: 100px;
+}
+
+/* Splide*/
+
+.splide__list {
+    gap: 20px;
+}
+
+.splide__slide {
+    position: relative;
+    width: 260px;
+    height: 320px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+@media (min-width: 992px) {
+    .splide__slide {
+        width: calc(260px * 1.2);
+        height: calc(320px * 1.2);
+    }
+}
+
+@media (min-width: 992px) {
+    .post-category-frontpage, .splide__slide {
+        position: relative;
+        left: 50px;
+    } 
+
+    .splide__track {
+        width: 100vw;
+    }
+}
+
+.splide__slide a {
+    text-decoration: none;
+}
+
+.splide__slide img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    border-radius: 5px;
+    transition: transform 800ms;
+    object-fit: cover;
+    filter: brightness(0.8);
+}
+.splide__slide a:hover img {
+    transform: scale(1.1);
+}
+
+.categories-date p {
+    font-size: 0.8rem;
+}
+
+/* post styles */
+
+article.post-article {
+    max-width: 800px;
+}
+
+.post-thumbnail {
+    width: 100vw;
+    height: 300px;
+    object-fit: cover;
+}
+
+@media (min-width: 768px) {
+    .post-thumbnail {
+        height: 500px;
+    }
+}
+
+/* newsletter form */ 
+
+.newsletter-form {
+    background-color: rgb(36, 36, 36);
+    border-radius: 10px;
+    color: white;
+    max-width: 1000px;
+    margin: 150px auto;
+}
+
+.newsletter-section {
+    text-align: center;
+}
+
+.wpforms-field-container {
+    margin: auto;
+    width: 70% !important;
+}
+
+#wpforms-9 form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#wpforms-9-field_1-container label, #wpforms-9-field_2-container label {
+    color: white;
+}
+
+#wpforms-9-field_1-container input, #wpforms-9-field_2-container input {
+    border-radius: 20px;
+    max-width: 100%;
+}
+
+#wpforms-submit-9 {
+    border-radius: 20px;
+    color: black;
+    background-color: white;
+    padding: 8px 50px;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
+}
+
+/* search form */
+
+.searchform {
+    margin-bottom: 2rem;
+}
+
+.searchform div {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    max-width: 500px;
+    margin: auto;
+}
+
+.searchform div input[type="text"]{
+    border: none;
+    border-radius: 30px;
+    padding: 8px;
+    flex: 1;
+    background-color: white;
+}
+
+.searchform div input[type="submit"]{
+    border: none;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+/* pagination */
+
+.navigation.pagination {
+    justify-content: center;
+}
+
+.navigation.pagination a {
+    color: white;
+}
+
+.next.page-numbers::after {
+    content: " >"
+}
+
+.prev.page-numbers::before {
+    content: "< "
+}
