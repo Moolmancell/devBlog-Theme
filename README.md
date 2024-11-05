@@ -5,6 +5,7 @@
 **Author:** Richmond Claude S. Bodot (Moolmancell)  
 **Theme Name:** devBlog Theme  
 **Text Domain:** devBlog 
+**Site:** https://moolmancell.github.io/devBlog-Theme/
 
 ![App Screenshot](https://i.imgur.com/7uNkjp1.png)
 
