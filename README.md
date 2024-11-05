@@ -1,6 +1,6 @@
 ![Logo](https://i.imgur.com/mxdLnyW.jpeg)
 
-# devBlog - WordPress Theme
+# devBlog - Wordpress Website
 
 **Author:** Richmond Claude S. Bodot (Moolmancell)  
 **Theme Name:** devBlog Theme  
@@ -11,11 +11,11 @@
 
 ## Overview
 
-devBlog is a custom WordPress theme designed to provide a streamlined, visually appealing blog experience. This theme includes custom styles, functionality, libraries such asBootstrap for the overall responsiveness of the website and the Splide library for creating responsive sliders.
+devBlog is a custom WordPress website designed to provide a streamlined, visually appealing blog experience. This includes custom styles, functionality, libraries such as Bootstrap for the overall responsiveness of the website and the Splide library for creating responsive sliders.
 
 ## Features
 
-- **Customizable Blog Layout:** Provides a clean, user-friendly interface with easy customization options.
+- **Customizable Blog Layout:** Provides a clean, user-friendly interface.
 - **Responsive Design:** Ensures a seamless experience across different devices and screen sizes.
 - **Splide Integration:** Utilizes the Splide library to create responsive, touch-friendly sliders for displaying featured content.
 - **Optimized for Performance:** Lightweight and optimized code to ensure quick load times.
