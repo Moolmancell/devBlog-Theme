@@ -25,7 +25,7 @@ devBlog is a custom WordPress website designed to provide a streamlined, visuall
 - **WordPress 5.0+**
 - **PHP 7.4+**
 
-## Installation
+## Want to check the theme?
 
 1. Download or clone the theme repository into your WordPress `wp-content/themes` directory.
 2. Activate the devBlog theme from the WordPress Dashboard under **Appearance > Themes**.
