@@ -27,15 +27,15 @@
                     alt="First slide"
                 />
                 <div class="carousel-content text-center">
-                    <h5>Your Heading Here</h5>
-                    <p>Your subheading goes here.</p>
+                    <h5>Introducing DevBlog</h5>
+                    <p>See the latest news and updates in the Tech industry.</p>
                     <a
                     name=""
                     id=""
                     class="btn carousel-button-eLink"
-                    href="#"
+                    href="<?php echo get_page_link(71)?>"
                     role="button"
-                    >Learn More</a
+                    >Go to Blogs</a
                 >
                 </div>
             </div>
@@ -46,15 +46,15 @@
                     alt="Second slide"
                 />
                 <div class="carousel-content text-center">
-                    <h5>Your Heading Here</h5>
-                    <p>Your subheading goes here.</p>
+                    <h5>Our Newsletter</h5>
+                    <p>Get the latest posts directly your email</p>
                     <a
                     name=""
                     id=""
                     class="btn carousel-button-eLink"
-                    href="#"
+                    href="#newsletter-heading"
                     role="button"
-                    >Learn More</a
+                    >Sign Up</a
                 >
                 </div>
                 
@@ -66,13 +66,13 @@
                     alt="Third slide"
                 />
                 <div class="carousel-content text-center">
-                    <h5>Your Heading Here</h5>
-                    <p>Your subheading goes here.</p>
+                    <h5>This is DevBlog</h5>
+                    <p>A custom WordPress website designed to provide a streamlined, visually appealing blog experience.</p>
                     <a
                     name=""
                     id=""
                     class="btn carousel-button-eLink"
-                    href="#"
+                    href="<?php echo get_page_link(41); ?>"
                     role="button"
                     >Learn More</a
                 >
@@ -143,7 +143,7 @@
 });
     </script>
     <div class="newsletter-form p-4 p-md-5">
-        <h1 class="newsletter-section text-white">Subscribe to our Newsletter</h1>
+        <h1 class="newsletter-section text-white" id="newsletter-heading" >Subscribe to our Newsletter</h1>
         <?php echo do_shortcode('[wpforms id="9"]'); ?>
     </div>
 <?php get_footer(); ?>
